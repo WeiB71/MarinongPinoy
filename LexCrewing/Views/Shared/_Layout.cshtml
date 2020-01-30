@@ -6,9 +6,10 @@
     <title>@ViewBag.Title</title>
     @Styles.Render("~/Content/css")
     @Scripts.Render("~/bundles/modernizr")
+    <script src="~/Scripts/jquery-3.4.1.js"></script>
 </head>
 <body>
-  @*<div class="navbar navbar-inverse navbar-fixed-top">
+  <div class="navbar navbar-inverse navbar-fixed-top">
         <div class="container">
             <div class="navbar-header">
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
@@ -25,7 +26,7 @@
                 </ul>
             </div>
         </div>
-    </div>*@
+    </div>
     <div class="container body-content">
         @RenderBody()
         <hr />
